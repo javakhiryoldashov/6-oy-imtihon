@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Page</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+  <div id="adminPage" class="page">
+    <button class="admin-logout" id="logoutBtn" class="logout-btn">Logout</button>
+    <h1 class="admin-name">Add Product</h1>
+    <form id="adminForm">
+      <div class="form-group">
+        <label for="productTitle">Title:</label>
+        <input class="admin-title" type="text" id="productTitle" placeholder="Enter product title">
+      </div>
+      <div class="form-group">
+        <label for="productPrice">Price:</label>
+        <div class="input-with-icon">
+          <input class="admin-price" type="number" id="productPrice" placeholder="Enter product price" min="0">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="productDescription">Description:</label>
+        <textarea class="admin-description" id="productDescription" placeholder="ENTER PRODACT DESCRIPTION"></textarea>
+      </div>
+      <button class="admin-btn-add-btn" type="submit" id="addBtn">Add Product</button>
+      <button type="button" class="admin-btn update-btn" id="addBtn" style="display:none;">Update Product</button>
+    </form>
+    <div id="productList" class="product-list"></div>
+   
+
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html> 
+

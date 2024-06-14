@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(255, 174, 0, 1) 0%,
+      rgba(247, 211, 66, 1) 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login__card {
+    width: 475px;
+    height: 550px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    padding: 44px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+  }
+  
+  .login__title::before {
+    content: "";
+    width: 6px;
+    height: 39px;
+    display: inline-block;
+    background-color: #f8d442;
+  }
+  
+  .login__crud {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    margin-bottom: 9px;
+    font-size: 22px;
+  }
+  
+  .login__text {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #6c6c6c;
+    margin-bottom: 50px;
+  }
+  
+  .login__email {
+    width: 415px;
+    height: 44px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 34px;
+    padding: 15px;
+    border: 1px solid rgb(229, 229, 229);
+  }
+  
+  .login__email-email {
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(108, 108, 108);
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .login__email::placeholder {
+    color: #cdcdcd;
+    font-size: 12px;
+  }
+  
+  .login__password {
+    width: 415px;
+    height: 44px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid rgb(229, 229, 229);
+  }
+  
+  .login__password-password {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(108, 108, 108);
+  }
+  
+  .login__password::placeholder {
+    color: #cdcdcd;
+  }
+  
+  .login__button {
+    width: 415px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #ffbd2f;
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+  

@@ -1,0 +1,157 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 174, 0, 1) 0%,
+    rgba(247, 211, 66, 1) 100%
+  );
+}
+
+.page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #00aff9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.admin-title {
+  height: 50px;
+  background-color: rgb(169, 196, 198);
+}
+
+.admin-price {
+  height: 50px;
+  background-color: rgb(169, 196, 198);
+}
+
+.admin-description {
+  background-color:rgb(87, 238, 64);
+  
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  resize: none;
+}
+
+.input-with-icon {
+  display: flex;
+  align-items: center;
+}
+
+.input-with-icon span {
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-btn {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 174, 0, 1) 0%,
+    rgba(247, 211, 66, 1) 100%
+  );
+  color: #fff;
+}
+
+.add-btn:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 174, 0, 1) 0%,
+    rgba(247, 211, 66, 1) 100%
+  );
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.edit-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+}
+
+.product-list {
+  margin-top: 20px;
+}
+
+.product-card {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.logout-btn {
+  margin-top: 20px;
+  background-color: #dc3545;
+}
+
+.admin-name {
+  margin-bottom: 50px;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+.update-btn {
+  background-color: rgb(97, 97, 255);
+  color: #fff;
+}
+
+.update-btn:hover {
+  background-color: rgb(87, 87, 225);
+}
+
+.admin-btn-add-btn {
+  width: 800px;
+  height: 50px;
+  background-color: yellow;
+}
+
+.admin-logout {
+  width: 150px;
+  height: 40px;
+  margin-left: 650px;
+  background-color:red;
+}
