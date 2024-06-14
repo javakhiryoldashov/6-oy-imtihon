@@ -15,7 +15,7 @@ elForm.addEventListener("submit", (e) => {
   ) {
     window.localStorage.setItem("user", JSON.stringify(data));
     setTimeout(() => {
-      window.location = "./index.html";
+      window.location = "./admin.html";
     }, 1000);
   } else {
     alert(
